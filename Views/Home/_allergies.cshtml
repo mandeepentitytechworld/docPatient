@@ -1,0 +1,34 @@
+﻿@using DocPatient.Models.DBModel
+@model List<AllergiesViewModel>
+
+<table style ="width:100%">
+    <thead>
+        <tr class="nested-header" style="background-color:#FF9800 !important">
+            <th>Patient ID</th>
+            <th>Name</th>
+            <th>Allergy Severity</th>
+            <th>Allergy Type</th>
+            <th>Notes</th>
+            <th>DOB</th>
+            <th>Weight</th>
+            <th>Height</th>
+            <th>Blood Group</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.PId</td>
+                <td>@item.PName</td>
+                <td>@item.AllergySeverity</td>
+                <td>@item.AllergyType</td>
+                <td>@item.Notes</td>
+                <td>@item.DOB.ToString("MM/dd/yyyy")</td>
+                <td>@item.Height</td>
+                <td>@item.Weight</td>
+                <td>@item.BloodGroup</td>
+            </tr>
+        }
+    </tbody>
+</table>

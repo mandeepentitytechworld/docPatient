@@ -1,0 +1,36 @@
+﻿@using DocPatient.Models.DBModel
+@model List<MedicationViewModel>
+
+<table style="width:100%">
+    <thead>
+        <tr class="nested-header" style="background-color: #009688 !important;">
+            <th>Med ID</th>
+            <th>DIN</th>
+            <th>Med Type</th>
+            <th>Blood Work Request</th>
+            <th>Patient Name</th>
+            <th>DOB</th>
+            <th>Weight</th>
+            <th>Height</th>
+            <th>Blood Group</th>
+            <th>Doc Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MId</td>
+                <td>@item.DIN</td>
+                <td>@item.MedType</td>
+                <td>@item.BloodWorkRequest</td>
+                <td>@item.PName</td>
+                <td>@item.DOB.ToString("MM/dd/yyyy")</td>
+                <td>@item.Height</td>
+                <td>@item.Weight</td>
+                <td>@item.BloodGroup</td>
+                <td>@item.DName</td>
+            </tr>
+        }
+    </tbody>
+</table>

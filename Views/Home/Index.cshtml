@@ -1,0 +1,77 @@
+﻿@using DocPatient.Models.DBModel
+@model List<DocDetail>
+
+<link href="~/css/doc.css" rel="stylesheet" />
+
+<div id="dataContainer">
+    <div class="header">
+        <h1>Doctor Details</h1>
+        @* <button class="add-btn">Add New Record</button> *@
+    </div>
+    <table class="doc-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Specialization</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.DocId</td>
+                    <td>@item.Name</td>
+                    <td>@item.PhoneNumber</td>
+                    <td>@item.Address</td>
+                    <td>@item.Email</td>
+                    <td>@item.Specialization</td>
+                    <td>
+                        <button class="detail-btn" onclick="togglePatients(@item.DocId)">Show Patients</button>
+                        <a asp-controller="Home" class="detail-btn-a" asp-action="Appointments" asp-route-dId="@item.DocId" id="app-@item.DocId">Appointments</a>
+                    </td>
+                </tr>
+
+                <tr class="nested-table" id="patients-@item.DocId">
+                    <td colspan="7" class="patients-@item.DocId">
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function appointments(a) 
+    {
+        $("#app-" + a).trigger("click");
+    }
+
+    function myPatients(docid) {
+        $.ajax({
+            url: "Home/Patients?docid=" + docid,
+            type: "GET",
+            success: function (data) {
+                $(".patients-" + docid).html(data);
+            },
+            error: function (data) {
+            }
+        });
+    }
+
+    function togglePatients(docId) {
+        myPatients(docId);
+        const patientsTable = document.getElementById(`patients-${docId}`);
+        if (patientsTable.style.display === "none" || !patientsTable.style.display) {
+            patientsTable.style.display = "table-row";
+            event.target.textContent = "Hide Patients";
+        } else {
+            patientsTable.style.display = "none";
+            event.target.textContent = "Show Patients";
+        }
+    }
+</script>

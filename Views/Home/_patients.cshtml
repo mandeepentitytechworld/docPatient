@@ -1,0 +1,101 @@
+﻿@using DocPatient.Models.DBModel
+@model List<PatientDetail>
+
+
+<table>
+    <thead>
+        <tr class="nested-header">
+            <th>Patient ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <th>Registration Date</th>
+            <th>DOB</th>
+            <th>Weight</th>
+            <th>Height</th>
+            <th>Blood Group</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.PId</td>
+                <td>@item.Name</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.Address</td>
+                <td>@item.Email</td>
+                <td>@item.DOB.ToString("MM/dd/yyyy")</td>
+                <td>@item.Height</td>
+                <td>@item.Weight</td>
+                <td>@item.BloodGroup</td>
+                <td>@item.RegistrationDate.ToString("MM/dd/yyyy")</td>
+                <td style="display: grid;">
+                    <button class="edit-btn" onclick="myAllergies(@item.PId)">Allergies</button>
+                    <button class="med-detail-btn" style="margin-top:1px;" onclick="myMedicationsPopUp(@item.PId)">Medications</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="pop">
+
+    <div class="overlay" id="overlay" onclick="hidePopup()"></div>
+    <div class="popup" id="popup">
+        <div class="popup-header">
+            <h2 class="pop-head"></h2>
+            <button class="button" onclick="hidePopup()">Close</button>
+        </div>
+        <div class="popup-content">
+            
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+    // Function to show the popup
+    function myMedicationsPopUp(pid) {
+
+        $.ajax({
+            url: "Home/Medications?pId=" + pid,
+            type: "GET",
+            success: function (data) {
+                $(".popup-content").html(data);
+                $(".pop-head").html("Medications")
+                document.getElementById('popup').style.display = 'block';
+                document.getElementById('overlay').style.display = 'block';
+            },
+            error: function (data) {
+            }
+        });
+        
+    }
+
+    function myAllergies(pid) {
+
+        $.ajax({
+            url: "Home/Allergies?pId=" + pid,
+            type: "GET",
+            success: function (data) {
+                $(".popup-content").html(data);
+                $(".pop-head").html("Allergies")
+                document.getElementById('popup').style.display = 'block';
+                document.getElementById('overlay').style.display = 'block';
+            },
+            error: function (data) {
+            }
+        });
+
+    }
+
+    // Function to hide the popup
+    function hidePopup() {
+        document.getElementById('popup').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    }
+</script>

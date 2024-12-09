@@ -1,0 +1,111 @@
+﻿@model DocPatientAppointments
+@{
+    var currentMonth = DateTime.Now.Month;
+    var currentYear = DateTime.Now.Year;
+
+    int daysInMonth = DateTime.DaysInMonth(currentYear, currentMonth);
+    DateTime firstDayOfMonth = new DateTime(currentYear, currentMonth, 1);
+    int startDay = (int)firstDayOfMonth.DayOfWeek; // Get the starting weekday
+}
+
+<link href="~/css/appointment.css" rel="stylesheet" />
+
+<div class="header">
+    <label>Doctor</label>
+    <select name="doctor" class="dropdown" onchange="docDrpChange()">
+        <option value="">Select Doctor</option>
+        @foreach (var item in Model.DocsViewModels)
+        {
+            if (item.Id == Model.DocId)
+            {
+                <option selected="selected" value="@item.Id">@item.Name</option>
+            }
+            else
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+        }
+    </select>
+    <label>Patient</label>
+    <select name="patient" class="dropdown" onchange="pDrpChange()">
+        <option value="">Select Patient</option>
+        @foreach (var item in Model.PatientViewModels)
+        {
+            if (item.Id == Model.PId)
+            {
+                <option selected="selected" value="@item.Id">@item.Name</option>
+            }
+            else
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+        }
+    </select>
+</div>
+
+<script>
+    function docDrpChange() {
+        var doctorId = $("select[name='doctor'] option:selected").val();
+
+        if (doctorId) {
+            window.location.href = 'http://localhost:5112/Home/Appointments?dId=' + doctorId;
+        }
+    }
+
+    function pDrpChange() {
+        var doctorId = $("select[name='patient'] option:selected").val();
+
+        if (doctorId) {
+            window.location.href = 'http://localhost:5112/Home/Appointments?pId=' + doctorId;
+        }
+    }
+</script>
+
+<div class="AppointmentContent">
+    <h3>Appointments for @currentMonth/@currentYear</h3>
+
+    <!-- Calendar Header -->
+    <div class="calendar-header">
+        <div class="day">Sun</div>
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+        <div class="day">Sat</div>
+    </div>
+
+    <!-- Calendar Grid -->
+    <div class="calendar-grid">
+        @for (int i = 0; i < startDay; i++)
+        {
+            <div class="empty-day"></div> <!-- Empty cells for days before the 1st -->
+        }
+
+        @for (int i = 1; i <= daysInMonth; i++)
+        {
+            var data = Model.AppointmentViewModels.Where(c => c.Date.Day == i).ToList();
+            <div class="calendar-day">
+                <div class="day-number">@i</div>
+
+                @if (data != null && data.Count > 0)
+                {
+                    @foreach (var item in data)
+                    {
+                        <div class="appointment">
+                            <div class="appointment-patient">@item.PatientName</div>
+                            <div class="appointment-time">@item.Date.ToString("HH:mm")</div>
+                            <div class="appointment-location">@item.Location</div>
+                            <div class="appointment-location">@item.PreNotes</div>
+                            <div class="appointment-location @item.Status">@item.Status</div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="no-appointment">No Appointment</div>
+                }
+            </div>
+        }
+    </div>
+</div>

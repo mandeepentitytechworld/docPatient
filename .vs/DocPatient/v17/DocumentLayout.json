@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\views\\home\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:views\\home\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\wwwroot\\css\\appointment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:wwwroot\\css\\appointment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\wwwroot\\css\\doc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:wwwroot\\css\\doc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\models\\appointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:models\\appointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\service\\docservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:service\\docservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\views\\home\\_patients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:views\\home\\_patients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\views\\home\\_allergies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:views\\home\\_allergies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\views\\home\\_medications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:views\\home\\_medications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\models\\dbmodel\\patientmedications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:models\\dbmodel\\patientmedications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\models\\allergiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:models\\allergiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\models\\dbmodel\\docpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:models\\dbmodel\\docpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|e:\\conestoga\\waterloo\\sem 2\\database\\new folder\\docpatient\\models\\dbmodel\\docdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16C4A1B-B744-4C01-BB3F-5F58540575CF}|DocPatient.csproj|solutionrelative:models\\dbmodel\\docdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appointment.css",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\wwwroot\\css\\appointment.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\appointment.css",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\wwwroot\\css\\appointment.css",
+              "RelativeToolTip": "wwwroot\\css\\appointment.css",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-09T22:15:48.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocService.cs",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Service\\DocService.cs",
+              "RelativeDocumentMoniker": "Service\\DocService.cs",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Service\\DocService.cs",
+              "RelativeToolTip": "Service\\DocService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAYwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T23:37:26.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAMwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T23:46:49.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T04:28:29.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "doc.css",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\wwwroot\\css\\doc.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\doc.css",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\wwwroot\\css\\doc.css",
+              "RelativeToolTip": "wwwroot\\css\\doc.css",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAAACgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-06T03:27:07.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppointmentViewModel.cs",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Models\\AppointmentViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AppointmentViewModel.cs",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Models\\AppointmentViewModel.cs",
+              "RelativeToolTip": "Models\\AppointmentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:40:41.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Appointments.cshtml",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Home\\Appointments.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Appointments.cshtml",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Home\\Appointments.cshtml",
+              "RelativeToolTip": "Views\\Home\\Appointments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T21:34:27.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_patients.cshtml",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Home\\_patients.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_patients.cshtml",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Home\\_patients.cshtml",
+              "RelativeToolTip": "Views\\Home\\_patients.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T03:40:18.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACIAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T03:21:47.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_allergies.cshtml",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Home\\_allergies.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_allergies.cshtml",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Home\\_allergies.cshtml",
+              "RelativeToolTip": "Views\\Home\\_allergies.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T16:39:13.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AllergiesViewModel.cs",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Models\\AllergiesViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AllergiesViewModel.cs",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Models\\AllergiesViewModel.cs",
+              "RelativeToolTip": "Models\\AllergiesViewModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwBkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:41:26.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_medications.cshtml",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Home\\_medications.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_medications.cshtml",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Views\\Home\\_medications.cshtml",
+              "RelativeToolTip": "Views\\Home\\_medications.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T16:55:14.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientMedications.cs",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Models\\DBModel\\PatientMedications.cs",
+              "RelativeDocumentMoniker": "Models\\DBModel\\PatientMedications.cs",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Models\\DBModel\\PatientMedications.cs",
+              "RelativeToolTip": "Models\\DBModel\\PatientMedications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:05:10.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DocPatient.cs",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Models\\DBModel\\DocPatient.cs",
+              "RelativeDocumentMoniker": "Models\\DBModel\\DocPatient.cs",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Models\\DBModel\\DocPatient.cs",
+              "RelativeToolTip": "Models\\DBModel\\DocPatient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:23:03.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DocDetail.cs",
+              "DocumentMoniker": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Models\\DBModel\\DocDetail.cs",
+              "RelativeDocumentMoniker": "Models\\DBModel\\DocDetail.cs",
+              "ToolTip": "E:\\Conestoga\\Waterloo\\Sem 2\\Database\\New folder\\docPatient\\Models\\DBModel\\DocDetail.cs",
+              "RelativeToolTip": "Models\\DBModel\\DocDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T23:40:56.85Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
